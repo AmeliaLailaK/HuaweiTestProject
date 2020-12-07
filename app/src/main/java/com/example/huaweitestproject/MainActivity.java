@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             ActivityCompat.requestPermissions(this, RUNTIME_PERMISSIONS, REQUEST_CODE);
         }
         initMap(savedInstanceState);
+        String abv = "Master";
 
     }
 
