@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             ActivityCompat.requestPermissions(this, RUNTIME_PERMISSIONS, REQUEST_CODE);
         }
         initMap(savedInstanceState);
-
+        Toast.makeText(this, "branch", Toast.LENGTH_SHORT).show();
     }
 
     private void initMap(Bundle savedInstanceState) {
