@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         Toast.makeText(this, "branch", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "branch2", Toast.LENGTH_SHORT).show();
+
     }
 
     private void initMap(Bundle savedInstanceState) {
