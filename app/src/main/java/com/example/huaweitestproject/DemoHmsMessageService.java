@@ -17,6 +17,7 @@ public class DemoHmsMessageService extends HmsMessageService {
         super.onNewToken(token);
         Log.i(TAG, "receive token:" + token);
         sendTokenToDisplay(token);
+        //Master change
     }
 
     @Override
